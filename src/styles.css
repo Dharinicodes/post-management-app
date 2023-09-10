@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+
+.App {
+  font-family: "IBM Plex Sans", sans-serif;
+  text-align: center;
+}
+
+.App > h1 {
+  color: #bfdbfe;
+  font-family: "Rubik Iso", cursive;
+}
+
+body {
+  background: linear-gradient(90deg, #2f4179 0%, #768ba6 100%);
+  margin: 0px;
+}
+
+.search-inpt {
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  border-style: none;
+  outline: none;
+  font-family: inherit;
+}
+
+.search-btn {
+  cursor: pointer;
+  border: none;
+  background-color: unset;
+  color: white;
+}
